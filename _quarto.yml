@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Wong Zi Xin"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - datastory.qmd
+      - test.qmd
+
+format:
+  html:
+    theme: minty
+    css: styles.css
+    toc: true
+
+editor: visual
+

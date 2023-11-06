@@ -1,0 +1,32 @@
+{
+  "index.qmd": {
+    "index.html": "975e7763"
+  },
+  "about.qmd": {
+    "about.html": "27134735"
+  },
+  "learning.qmd": {
+    "learning.html": "ffdea9fd"
+  },
+  "src/Week-4/Code-along-4.Rmd": {
+    "Code-along-4.html": "fa26721b"
+  },
+  "src/Week-4/Challenge-4.Rmd": {
+    "Challenge-4.html": "dce412ce"
+  },
+  "datastory.qmd": {
+    "datastory.html": "8c70c77e"
+  },
+  "test.qmd": {
+    "test.html": "f340814e"
+  },
+  "src/Week-3/Challenge-3.Rmd": {
+    "Challenge-3.html": "bf5b9303"
+  },
+  "src/Week-2/Challenge-2.Rmd": {
+    "Challenge-2.html": "7b0a3e24"
+  },
+  "src/Week-5/Code-along-5.Rmd": {
+    "Code-along-5.html": "1e4d8d27"
+  }
+}
