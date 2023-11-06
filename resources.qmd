@@ -6,7 +6,7 @@ editor: visual
 
 # Interested in learning more about trends in the aviation industry?
 
-## Here, I have curated a list of short reads for anyone interested in understanding more about trends in the aviation industry generally, and in particular within the region of Europe. These articles also provided important information for me as I worked on my Data Story project! :)
+## I have curated a list of short reads for anyone interested in understanding more about trends in the aviation industry generally, and in particular within the region of Europe. These articles also provided important information for me as I worked on my Data Story project! :)
 
 ### 1. Future of Aviation
 
