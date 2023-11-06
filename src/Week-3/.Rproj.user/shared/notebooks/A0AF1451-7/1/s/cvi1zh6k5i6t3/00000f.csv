@@ -1,4 +1,0 @@
-"0","# Boxplot "
-"0","# Enter code here"
-"0","ggplot(loans, aes(x = interest_rate)) + "
-"0","  geom_boxplot()"
