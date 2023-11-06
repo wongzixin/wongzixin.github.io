@@ -31,5 +31,11 @@
   },
   "resources.qmd": {
     "resources.html": "20b00652"
+  },
+  "nus.qmd": {
+    "nus.html": "d914b1aa"
+  },
+  "ntu.qmd": {
+    "ntu.html": "d5333676"
   }
 }
