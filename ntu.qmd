@@ -1,5 +1,5 @@
 ---
-title: "Explore by Country"
+title: "Data Story: Explore by Country"
 format: html
 editor: visual
 ---
