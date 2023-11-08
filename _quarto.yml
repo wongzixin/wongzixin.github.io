@@ -10,9 +10,9 @@ website:
         text: Home
       - about.qmd
       - datastory.qmd
+      - ntu.qmd
       - learning.qmd
       - resources.qmd
-      - ntu.qmd
 
 format:
   html:

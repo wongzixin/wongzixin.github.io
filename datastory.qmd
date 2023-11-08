@@ -1,9 +1,9 @@
 ---
-title: "Data Story"
+title: "Data Story: The Big Picture"
 format: html
 editor: visual
 ---
 
-## How have air transportation trends in the region of Europe evolved over the years, especially in a post COVID world? 
+## How have air transportation trends in EU27 countries evolved over the years?
 
 ### To address this question, I conducted a preliminary round of analyses.
