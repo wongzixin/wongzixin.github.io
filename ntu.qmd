@@ -1,11 +1,7 @@
 ---
-title: "NTU"
+title: "Explore by Country"
 format: html
 editor: visual
 ---
-
-## NUS Page -\> NTU
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
 ## 
