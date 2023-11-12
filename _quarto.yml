@@ -10,7 +10,7 @@ website:
         text: Home
       - about.qmd
       - datastory.qmd
-      - datastory.qmd
+      - datastorycountry.qmd
       - learning.qmd
       - resources.qmd
 
