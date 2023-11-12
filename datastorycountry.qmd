@@ -6,6 +6,18 @@ editor: visual
 
 ## How have air transportation trends in EU27 countries evolved over the years?
 
+Now that I have gained a basic understanding of the broad air transportation trends in EU27 countries, I now delve deeper to examine the trajectories within individual countries. This encourages exploration tailored to personal preferences or interests, allowing for a customisable exploration of each nation's unique air travel narrative. How have the air passenger trends within each country shifted through the annals of time? What might the skies hold for each country as they chart their course into the future?
+
 <iframe height="400" width="100%" frameborder="no" src="https://datastoryproject.shinyapps.io/explorebycountry/">
 
 </iframe>
+
+### Understanding Current Trends
+
+Generally, across all countries, there is a consistent trend of the number of passengers increasing steadily until the outbreak of the pandemic, resulting in a sharp drop from 2019 to 2020. In the subsequent year, while the initial shock to air travel began to abate, only a modest rebound was observed. Moving into 2022, this recovery trajectory was more pronounced, with some nations witnessing a resurgence in passenger numbers that approached pre-pandemic figures, signaling a resilient, albeit gradual, return to form for the aviation sector.
+
+Beyond understanding the total number of passengers carried by each country across all years, the growth rate line graph provides a deeper understanding of how the numbers increase or decrease over the years. It reveals intricate patterns of progression or regression in passenger numbers that each country experiences annually.
+
+### Predicting Future Trends
+
+To understand future trends for individual countries, a predicted growth rate line graph was depicted. The prediction model was based on a simple linear regression model that took values from the post-pandemic landscape of 2020-2022. This deliberate choice mitigates the distortion of the predictive analytics that might arise from incorporating the full historical data set from 2011 to 2022, which includes the outlier period of the pandemic onset. Unlike the previous prediction model used to predict general growth rates, this model is predicated under the premise that the post-pandemic period has set a new baseline for air travel trends where previous trends may no longer hold true. By focusing on this recent period, the model seeks to provide a more refined and representative forecast that aligns with the current trajectory of recovery and adjustment within the aviation industry.
