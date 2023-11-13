@@ -125,6 +125,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#understanding-current-trends" id="toc-understanding-current-trends" class="nav-link" data-scroll-target="#understanding-current-trends">Understanding Current Trends</a></li>
   <li><a href="#predicting-future-trends" id="toc-predicting-future-trends" class="nav-link" data-scroll-target="#predicting-future-trends">Predicting Future Trends</a></li>
+  <li><a href="#evaluation" id="toc-evaluation" class="nav-link" data-scroll-target="#evaluation">Evaluation</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -151,7 +152,13 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="how-have-air-transportation-trends-in-eu27-countries-evolved-over-the-years" class="level2">
 <h2 class="anchored" data-anchor-id="how-have-air-transportation-trends-in-eu27-countries-evolved-over-the-years">How have air transportation trends in EU27 countries evolved over the years?</h2>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="docs/EU27.jpeg" class="img-fluid" style="width:100.0%"></p>
+</div>
+</div>
 <p>To answer this question, <a href="https://www.kaggle.com/datasets/gpreda/passengers-air-transport-in-europe">data</a> was obtained from Kaggle, a public data source. In the context of my data story, air transportation trends is scoped to focus specifically on the number of air passengers, allowing for a concentrated analysis of passenger traffic — an essential indicator of the aviation industry’s health and vitality.</p>
+<p>Within this data set, air passengers counted are based on the following criteria: individuals are counted only once per flight number, irrespective of the number of legs on their journey, to prevent double-counting those who remain on board for multiple segments. This includes both fare-paying and non-fare-paying passengers as long as their flight starts or ends at the reporting airport, as well as those transferring to different flights. However, direct transit passengers who stay on the same aircraft during a stopover and do not switch planes, are excluded to ensure accuracy.</p>
 <iframe height="400" width="100%" frameborder="no" src="https://wongzixin-finalproject.shinyapps.io/shinyfinalproject/">
 </iframe>
 <section id="understanding-current-trends" class="level3">
@@ -184,10 +191,15 @@ ul.task-list li input[type="checkbox"] {
 <h4 class="anchored" data-anchor-id="number-of-passengers-by-year-1"><em>Number of Passengers By Year</em></h4>
 <p>Under this tab, besides generating a bar graph for the total number of passengers by year and a line graph indicating the growth rate, a predicted growth rates line graph was generated to help me predict furture trends. In calculating predicted growth rates, only data from 2011 to 2019 was used. The rationale for this delineation stems from the extraordinary circumstances of 2020, where the COVID-19 pandemic introduced extreme deviations from established trends. Therefore, calculating predicted growth rates based on historical data from 2011 to 2022, which includes 2020, is non-representative of the normative progression observed in the preceding years.</p>
 <p>One caveat of such a prediction model is that the predicted growth rates graph was generated on the assumption that air travel trends pre and post COVID-19 will remain somewhat similar. That is, I expect the continuity of air travel trends as observed in the pre-COVID era, projecting forward into the post-pandemic landscape. This presupposes a degree of stability and resilience in travel behaviors and industry patterns that may not fully account for the potential long-term shifts engendered by the pandemic—ranging from changes in consumer confidence and business travel norms to structural shifts in the global economy and international mobility.</p>
-<p>Nevertheless, the model affords a distinct advantage: it proffers a hypothetical trajectory for 2020 through 2022—a counter-factual narrative of what might have been in the absence of the pandemic. By extrapolating from the historical data that predates COVID-19, the model depicts a projection of growth rates untainted by the pandemic’s distortive impact. For instance, had the pandemic not occurred, the predicted growth rate for 2020 stands at a promising 7.87%, with expectations set for a consistent uptrend through to 2027. By juxtaposing this potential growth against the stark reality — a sharp decline to -73.44% in 2020 — the contrasting figures starkly illuminate the disruption of the pandemic. This alternate timeline offers valuable insights, serving as a comparative baseline against which to measure the actual pandemic-induced deviations, thereby enhancing our comprehension of the pandemic’s true effect on air travel trends.</p>
-
-
+<p>Nevertheless, the model affords a distinct advantage: it proffers a hypothetical trajectory for 2020 through 2022—a counter-factual narrative of what might have been in the absence of the pandemic. By extrapolating from the historical data that predates COVID-19, the model depicts a projection of growth rates untainted by the pandemic’s impact. For instance, had the pandemic not occurred, the predicted growth rate for 2020 stands at a promising 7.87%, with expectations set for a consistent uptrend through to 2027. By juxtaposing this potential growth against the stark reality — a sharp decline to -73.44% in 2020 — the contrasting figures starkly illuminate the disruption of the pandemic. This alternate timeline offers valuable insights, serving as a comparative baseline against which to measure the actual pandemic-induced deviations, thereby enhancing our comprehension of the pandemic’s true effect on air travel trends.</p>
 </section>
+</section>
+<section id="evaluation" class="level3">
+<h3 class="anchored" data-anchor-id="evaluation">Evaluation</h3>
+<p>You may be wondering… why is understanding these numbers on the total number of air passengers carried important?</p>
+<p>For the EU27 as a cohesive entity, it informs strategic policy development and infrastructure expansion to manage the flow of travelers effectively and sustaineably. This is particularly crucial for the EU27, where borderless movement is a foundational principle. Depending on changes in passenger counts in a post pandemic world, it becomes imperative to anticipate the need for enhanced airport capacity, resource optimisation and public health measures to foster a resilient air travel network.</p>
+
+
 </section>
 </section>
 

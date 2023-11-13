@@ -6,6 +6,10 @@ editor: visual
 
 # Interested in learning more about trends in the aviation industry?
 
+```{r, echo=FALSE, out.width='100%'}
+knitr::include_graphics("/Users/zixinwong/Desktop/NUS/Academics/CNM/NM2207/MAIN/wongzixin.github.io/docs/plane.webp")
+```
+
 I have curated a list of short reads for anyone interested in understanding more about trends in the aviation industry generally, and in particular within the region of Europe. These articles also provided important information for me as I worked on my Data Story project! :)
 
 ### 1. Future of Aviation
